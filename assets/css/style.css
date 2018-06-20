@@ -1,0 +1,45 @@
+
+.top{
+    color : white;
+
+}
+.body{
+    color : white;
+}
+p{
+    color : white;
+}
+h2{
+    color : white;
+}
+h1{
+    color: white;
+
+}
+header{
+    left: 0; 
+    bottom: 0; 
+    width: 100%;
+    background-color: black;
+   
+}
+footer { 
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    
+}
+.item-link{
+    color : white;
+}
+.connect {
+    color: white;
+
+}
+.link{
+    height: 25px;
+}
