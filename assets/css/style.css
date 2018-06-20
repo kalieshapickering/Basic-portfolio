@@ -1,28 +1,68 @@
 
-.top{
+/* contact body  */
+.body-contact{
     color : white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+    width: 50%;
+    height:auto;
+    border: solid;
+  border-color: white;
+  border-width: 3px;
 
 }
-.body{
+/* about body  */
+.body-index{
     color : white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+    width: 75%;
+    overflow: scroll;
+    border: solid;
+  border-color: white;
+  border-width: 3px;
+}
+/* Portfolio body  */
+.body-portfolio{
+    color : white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+    width: 65%;
+    height: auto;
+    overflow: scroll;
+    border: solid;
+  border-color: white;
+  border-width: 3px;
 }
 p{
     color : white;
+    font-family: Helvetica;
 }
 h2{
     color : white;
+    font-family: Georgia;
 }
 h1{
-    color: white;
+    color:white;
+    font-family: Georgia;
+    float: center;
+    padding: 5px;
 
 }
+/* Sticky header  */
 header{
     left: 0; 
-    bottom: 0; 
     width: 100%;
     background-color: black;
+    font-family: Helvetica;
+    position: sticky;
+    top: 0;
    
 }
+/* sticky footer  */
 footer { 
     position: fixed; 
     left: 0; 
@@ -31,15 +71,116 @@ footer {
     background-color: black; 
     color: white; 
     text-align: center; 
+    font-size: 12px;
+    
     
 }
 .item-link{
     color : white;
-}
-.connect {
-    color: white;
 
 }
 .link{
     height: 25px;
+}
+main{
+    height: 400px;
+    border-width: 200px;
+    background-color: dimgray;
+}
+/* My name in the header  */
+#name{
+    background-color: dimgray;
+    height: 200%;
+    width: 100%;
+    text-align: center;
+    margin-right: 0px;
+    border: solid;
+  border-color: white;
+  border-width: 3px;
+  
+    
+}
+/* header link lists  */
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin-left: 0px;
+
+}
+li {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+/* image sizes for project images  */
+.projects{
+    width:300px;
+    height:300px;
+    padding: 20px;
+    margin: 30px;
+}
+.portfolio-header{
+    text-align: left;
+}
+.line-portfolio{
+    height: 150px;
+    width: 650px;
+}
+.line-contact{
+    height: 150px;
+    width: 650px;
+}
+.line-index{
+    height: 150px;
+    width: 650px;
+}
+/* change this to fit in with your code*/
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+/* Style the submit button  */
+input[type=submit] {
+    background-color: gold;
+    color:black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, lighter green color */
+input[type=submit]:hover {
+    background-color: goldenrod;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 20px;
+}
+.contact-font{
+    color:black;
+    font-weight: bold;
+}
+.connect{
+    width: 50px;
+    height:50px;
+    text-align: center;
 }

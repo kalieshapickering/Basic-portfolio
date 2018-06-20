@@ -10,50 +10,62 @@
     <body background="/Users/kalieshapickering/desktop/basic-portfolio/assets/images/connectwork.png">
         <!-- navagation panel-->
         <header class="top">
-                <div class="container">
-                        <div class="name"><h1><strong>Kaliesha Pickering</strong></h1></div>
+                <div>
                         <!-- navigation menu-->
                         <div class="menu">
-                            <nav class="menu">
-                                <ul>
-                                    <li><a href="/Users/kalieshapickering/desktop/basic-portfolio/index.html" class="item-link">ABOUT</a></li>
-                                    <li><a href="/Users/kalieshapickering/desktop/basic-portfolio/portfolio.html" class="item-link">PORTFOLIO</a></li>
-                                    <li><a href="/Users/kalieshapickering/desktop/basic-portfolio/contact.html" class="item-link">CONTACT</a></li>
-                                </ul>
-                            </nav>
-                                <!-- hyperlinks to linkden, stack,and git -->
-                                <div class="connect">
-                                    <ul>
-                                        <li><a href="https://www.linkedin.com/in/kaliesha-pickering-855987a2/"  target="_blank"><img class="link" src="/Users/kalieshapickering/desktop/basic-portfolio/assets/images/linkedinlogo.jpg"></li>
-                                        <li><a href="https://github.com/kalieshapickering"  target="_blank"><img class="link" src="/Users/kalieshapickering/desktop/basic-portfolio/assets/images/github.png"></a></li>
-                                        <li><a href="link to my stack"  target="_blank"><img class="link" src="/Users/kalieshapickering/desktop/basic-portfolio/assets/images/stackoverflow.png"></a></li>
+                                <nav >
+                                    <ul class="nav-connect">
+                                           
+                                            <li><a href="/Users/kalieshapickering/desktop/basic-portfolio/contact.html" class="item-link">CONTACT</a></li>
+                                            <li><a href="/Users/kalieshapickering/Desktop/Basic-portfolio/portfolio.html" class="item-link">PORTFOLIO</a></li>
+                                        <li><a href="/Users/kalieshapickering/desktop/basic-portfolio/index.html" class="item-link">ABOUT</a></li>
+                                        <li><div id="name"><h1><strong>Kaliesha Pickering</strong></h1></div></li>
                                     </ul>
-                                </div>
+                                </nav>
+                                    <!-- hyperlinks to linkedin, stack,and git -->
+                                    <div >
+                                        <ul>
+                                                <li><a class="connect" href="https://www.linkedin.com/in/kaliesha-pickering-855987a2/"  target="_blank"><img class="link" src="/Users/kalieshapickering/desktop/basic-portfolio/assets/images/linkedinlogo.jpg"></li>
+                                                    <li><a  class="connect" href="https://github.com/kalieshapickering"  target="_blank"><img class="link" src="/Users/kalieshapickering/desktop/basic-portfolio/assets/images/github.png"></a></li>
+                                                    <li><a class="connect" href="https://stackoverflow.com/users/9915373/kaliesha-pickering?tab=profile"  target="_blank"><img class="link" src="/Users/kalieshapickering/desktop/basic-portfolio/assets/images/stackoverflow.png"></a></li>
+                                        </ul>
+                                    </div>
+                            </div>
                         </div>
-                    </div>
         </header>
+        <br><br>
         <!-- leave their contact information-->
-        <main class="body">
+        <main class="body-contact">
             <br>
             <h2>Contact</h2>
-            <br>
-            <div>
-                    <h4>Name</h4>
-                    <!-- find a way for them to write in this space-->
-            </div>
-            <br>
-           <div>
-                <h4>Email</h4>
-                <!-- find a way for them to write their email-->
-           </div>
-            <br>
-            <div>
-                <h4>Message</h4>
-                <!-- put a message box with 1000 character limit-->
-            </div>
-            <br>
-            <!-- submit button-->
-            <p><a href="link to java action?">Submit</a></p>
+            
+            <img class="line-contact" src="/Users/kalieshapickering/desktop/basic-portfolio/assets/images/blackline.png" alt="Plain line" >
+            <!-- change this to fit in with your code-->
+            <div class="container contact-font">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="australia">International</option>
+                      </select>
+                      <label for="lname">Email</label>
+                      <input type="text" id="email" name="email" placeholder="example@youremail.com">
+                      
+                      <label for="subject">Message</label>
+                      <textarea id="subject" name="subject" placeholder="Tell me about your project here.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
         </main>
         <!-- static footer-->
         <footer>
