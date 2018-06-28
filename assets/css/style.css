@@ -1,20 +1,31 @@
 
-.top{
+body{
+    margin:0;
+    padding:0;
+    background-image: url("/Users/kalieshapickering/desktop/basic-portfolio/assets/images/connectwork.png");
+    
+}
+.nav-bar{
     height:55px;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    
+    
 }
 /* contact body  */
 .body-contact{
     color : white;
     text-align: left;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     width: 50%;
-    height:500px;
+    height:560px;
     overflow: scroll;
-    border: solid;
+    border: ridge;
   border-color: white;
-  border-width: 3px;
-  border-radius: 4px; 
+  border-width: 12px;
+  border-radius: 7px; 
   background-color: dimgray;
   
 
@@ -25,13 +36,13 @@
     text-align: justify;
     margin: 0 auto;
     padding: 10px;
-    width: 75%;
+    width: 960px;
     height: 60%;
     overflow: scroll;
-    border: solid;
+    border: ridge;
   border-color: white;
-  border-width: 3px;
-  border-radius: 4px; 
+  border-width: 12px;
+  border-radius: 7px; 
   position: center;
   background-color: dimgray;
   
@@ -42,31 +53,20 @@
     color : white;
     text-align: left;
     margin: 0 auto;
-    padding: 20px;
-    width: 65%;
+    padding: 10px;
+    width: 800px;
     height: 700px;
     overflow: scroll;
-    border: solid;
+    border: ridge;
   border-color: white;
-  border-width: 3px;
-  border-radius: 4px; 
+  border-width: 12px;
+  border-radius: 7px; 
   background-color: dimgray;
 }
-/* fonts  */
-p, h2, h1 { 
-    color : white;
-    font-family: Helvetica;
-    
-}
+
 .contact-font{
     color:black;
     font-weight: bold;
-}
-h2{
-    margin: 0;
-    padding: 5px;
-    text-align: left;
-    
 }
 /* Sticky header  */
 header{
@@ -91,51 +91,39 @@ footer {
     color: white; 
     text-align: center; 
     font-size: 12px;
-    
-    
-}
-/*all links*/
-.nav{
-    height:100px;
 }
 /*links for within the website*/
 .item-link{
     color : white;
     text-decoration: none;
-
+    
 }
-.nav-connect{
+#nav-connect{
     height:45px;
+    float: left;
+    margin-left:20%;
 }
-.link{
-    height: 20px;
-}
+
 
 /* links to other websites */
 .connect{
     width: 25px;
     height:25px;
-    text-align: center;
     padding:5px;
+    margin-right: 200px;
+}
 
-    
-}
-.external-links{
-    margin-left:400px;
-    margin-right: 600px;
-    height:35px;
-}
+
 /* My name in the header  */
 #name{
-   
-    text-align: center;
-    margin-left: 0;
+    margin-left: 20%;
     margin-top:0;
-    border:0;
-    padding:0;
-    height:30px;
-    width: 300px;
-    
+    padding:13px;
+    width: 245px;
+    background: goldenrod;
+    float:left;
+    color:white;
+    font-family: Georgia;
 }
 
 /* header link lists  */
@@ -144,18 +132,19 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: 0px;
-
+   
 }
 li {
     float: right;
     display: block;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
+
     
 }
+
 /* image sizes for project images  */
 .projects{
     width:175px;
@@ -165,7 +154,8 @@ li {
     border: solid;
     border-width: 5px;
     background:black;
-    
+    float: left;   
+    position: relative;
 }
 
 /* contact text info for submit sheet*/
@@ -183,7 +173,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button  */
 input[type=submit] {
-    background-color: gold;
+    background-color: goldenrod;
     color:black;
     padding: 12px 20px;
     border: none;
@@ -193,11 +183,11 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, dark gold color */
 input[type=submit]:hover {
-    background-color: goldenrod;
+    background-color: gold;
 }
 
 /* Add a background color and some padding around the form */
-.container {
+.container-contact {
     border-radius: 5px;
     background-color: lightgrey;
     padding: 20px;
@@ -211,22 +201,92 @@ input[type=submit]:hover {
     border-radius: 150px; 
     padding:5px;
     background:white;
+    float: left;
+    margin: 0 15px 0 15px;
+    height: 180px;
 }
 .writing{
         position: relative;
         text-align: left;
         color: white;
 }
-.centered {
-    position: absolute;
-    bottom: 20px;
-    left: 130px;
-    transform: translate(-50%, -50%);
+/*pictures*/
+.hangman {
     text-align: center;
     color: white;
     background: black;
-    padding:15px;
-    width: 150px;
+    margin-right: 600px;
+    margin-left:90px;
+   padding: 20px;
+   bottom: -230px;
+   left: -50px;
+   position: absolute;
+   width:150px;
 
 }
-
+.rpg-game {
+    text-align: center;
+    color: white;
+    background: black;
+    margin-right: 600px;
+    margin-left:90px;
+   padding: 20px;
+   bottom: -230px;
+   left: 210px;
+   position: absolute;
+   width:150px;
+}
+.trivia {
+    text-align: center;
+    color: white;
+    background: black;
+    margin-right: 600px;
+    margin-left:90px;
+   padding: 20px;
+   bottom: -230px;
+   left: 480px;
+   position: absolute;
+   width:150px;
+}
+.info-widget {
+    text-align: center;
+    color: white;
+    background: black;
+    margin-right: 600px;
+    margin-left:90px;
+   padding: 20px;
+   bottom: -490px;
+   left: -50px;
+   position: absolute;
+   width:150px;
+}
+.rock-paper-scissors {
+    text-align: center;
+    color: white;
+    background: black;
+    margin-right: 600px;
+    margin-left:90px;
+   padding: 20px;
+   bottom: -490px;
+   left: 210px;
+   position: absolute;
+   width:150px;
+}
+p{
+    font-family: sans-serif;
+    line-height: 150%;
+    
+}
+h4{
+    font-family: sans-serif;
+    text-align: center;
+}
+h2{
+    background: goldenrod;
+    width: 120px;
+    border-style: ridge;
+    border-color:goldenrod;
+    border-width: 10px;
+    text-align: center;
+    
+}
